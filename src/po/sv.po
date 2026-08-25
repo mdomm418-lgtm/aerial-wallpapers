@@ -1,0 +1,397 @@
+# Gnome Shell Extension - Hanabi
+# Copyright (C) 2023 Jeff Shee (jeffshee8969@gmail.com)
+# This file is distributed under the same license as the gnome-ext-hanabi package.
+# Olle Modin <ollemodin@outlook.com>, 2024.
+# Kuwush <79j0hancarl@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-25 01:03+0900\n"
+"PO-Revision-Date: 2025-04-10 08:01+0000\n"
+"Last-Translator: Kuwush <79j0hancarl@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnome-ext-hanabi/"
+"gnome-ext-hanabi/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Play"
+msgstr "Spela"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102
+msgid "Unmute Audio"
+msgstr "Sätt på Ljud"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102 src/prefs.ts:42
+msgid "Mute Audio"
+msgstr "Tysta Ljud"
+
+#: src/panelMenu.ts:109
+msgid "Next Wallpaper"
+msgstr "Nästa Bakgrund"
+
+#: src/panelMenu.ts:126
+msgid "Preferences"
+msgstr "Preferenser"
+
+#: src/prefs.ts:38
+msgid "General"
+msgstr "Allmänt"
+
+#: src/prefs.ts:43
+msgid "Volume Level"
+msgstr "Volymnivå"
+
+#: src/prefs.ts:44
+msgid "Random Start Position"
+msgstr ""
+
+#: src/prefs.ts:45
+msgid "Start playback from a random position each time a video starts"
+msgstr ""
+
+#: src/prefs.ts:46
+msgid "Show Panel Menu"
+msgstr "Visa Panel Meny"
+
+#: src/prefs.ts:47
+msgid "Show on Lock Screen"
+msgstr ""
+
+#: src/prefs.ts:48
+msgid "Show the live wallpaper on the lock screen"
+msgstr ""
+
+#: src/prefs.ts:50
+msgid "Auto Pause"
+msgstr "Automatisk pausning"
+
+#: src/prefs.ts:53
+msgid "Pause on Window Focus"
+msgstr ""
+
+#: src/prefs.ts:54
+#, fuzzy
+#| msgid "Pause playback when an MPRIS media player is playing media"
+msgid "Pause playback when any window is focused"
+msgstr "Pausa uppspelning när en MPRIS mediaspelar spelar upp media"
+
+#: src/prefs.ts:56
+msgid "Low Battery Threshold"
+msgstr "Tröskel för låg batterinivå"
+
+#: src/prefs.ts:57
+msgid "Set the threshold percentage for low battery level"
+msgstr "Sätt tröskelprocenten för låg batterinivå"
+
+#: src/prefs.ts:58
+msgid "Pause on Media Player Playing"
+msgstr "Pausa vid Mediaspelare Spelar"
+
+#: src/prefs.ts:59
+msgid "Pause playback when an MPRIS media player is playing media"
+msgstr "Pausa uppspelning när en MPRIS mediaspelar spelar upp media"
+
+#: src/prefs.ts:61
+msgid "Wallpaper Changer"
+msgstr "Bakgrundsändrare"
+
+#: src/prefs.ts:63
+msgid "Change Wallpaper Automatically"
+msgstr "Ändra Bakgrund Automatiskt"
+
+#: src/prefs.ts:66
+msgid "Change Wallpaper Interval (minutes)"
+msgstr "Ändra Bakgrundsintervall (minuter)"
+
+#: src/prefs.ts:69
+msgid "Overview"
+msgstr ""
+
+#: src/prefs.ts:71
+msgid "Corner Radius"
+msgstr ""
+
+#: src/prefs.ts:72
+msgid ""
+"Rounded corner radius in pixels for workspace background in the overview"
+msgstr ""
+
+#: src/prefs.ts:74
+msgid "Experimental"
+msgstr "Experimentellt"
+
+#: src/prefs.ts:76
+msgid "Experimental VA Plugin"
+msgstr "Experimentellt VA Tillägg"
+
+#: src/prefs.ts:77
+msgid ""
+"Enable VA decoders which improve performance for Intel/AMD Wayland users"
+msgstr ""
+"Aktivera VA avkodare vilket förbättrar prestanda för Intel/AMD Wayland "
+"användare"
+
+#: src/prefs.ts:78
+msgid "NVIDIA Stateless Decoders"
+msgstr ""
+
+#: src/prefs.ts:79
+msgid "Use new stateless NVIDIA decoders"
+msgstr "Använd nya stateless NVIDIA avkodare"
+
+#: src/prefs.ts:81
+msgid "Developer"
+msgstr "Utvecklare"
+
+#: src/prefs.ts:83
+msgid "Debug Mode"
+msgstr "Felsökningsläge"
+
+#: src/prefs.ts:84
+msgid "Print debug messages to log"
+msgstr "Skriv ut felsökningsmeddelanden till logg"
+
+#: src/prefs.ts:85
+#, fuzzy
+#| msgid "Preferences"
+msgid "Prefer clappersink"
+msgstr "Preferenser"
+
+#: src/prefs.ts:86
+#, fuzzy
+#| msgid "Force use of gtk4paintablesink for video playback"
+msgid "Prefer clappersink over gtk4paintablesink for video playback"
+msgstr "Tvinga användning utav gtk4paintablesink för videouppspelning"
+
+#: src/prefs.ts:87
+msgid "Force GtkMediaFile"
+msgstr "Tvinga GtkMediaFile"
+
+#: src/prefs.ts:88
+msgid "Force use of GtkMediaFile for video playback"
+msgstr "Tvinga användning utav GtkMediaFile för videouppspelning"
+
+#: src/prefs.ts:89
+msgid "Enable Graphics Offload"
+msgstr ""
+
+#: src/prefs.ts:90
+msgid "Enable graphics offload for improved performance"
+msgstr ""
+
+#: src/prefs.ts:91
+msgid "Startup Delay"
+msgstr "Uppstartsfördröjning"
+
+#: src/prefs.ts:92
+msgid ""
+"Add a startup delay (in milliseconds) to mitigate compatibility issues with "
+"other extensions"
+msgstr ""
+"Lägg till en uppstartsfördröjning (i millisekunder) för att mildra "
+"kompatibiliteten med andra tillägg"
+
+#: src/prefs.ts:94
+msgid "Border Stroke"
+msgstr ""
+
+#: src/prefs.ts:95
+msgid ""
+"Border width in pixels drawn inside the rounded-rect bounds (0 = disabled)"
+msgstr ""
+
+#: src/prefs.ts:160
+msgid "Video Path"
+msgstr "Videoväg"
+
+#: src/prefs.ts:166 src/prefs.ts:191 src/prefs.ts:207 src/prefs.ts:228
+msgid "None"
+msgstr "Ingen"
+
+#: src/prefs.ts:172 src/prefs.ts:213
+msgid "Open"
+msgstr "Öppen"
+
+#: src/prefs.ts:182
+msgid "Open File"
+msgstr "Öppna Fil"
+
+#: src/prefs.ts:201
+msgid "Change Wallpaper Directory Path"
+msgstr "Ändra Bakgrundens Katalogsväg"
+
+#: src/prefs.ts:220
+msgid "Select Directory"
+msgstr "Välj mapp"
+
+#: src/prefs.ts:238
+msgid "Fit Mode"
+msgstr ""
+
+#: src/prefs.ts:239
+msgid "Control how wallpaper fits within the monitor"
+msgstr "Kontrollera hur bakgrunden får plats inom bildskärmen"
+
+#: src/prefs.ts:240
+msgid ""
+"\n"
+"    <b>Fill</b>: Stretch the wallpaper to fill the monitor.\n"
+"    <b>Contain</b>: Scale the wallpaper to fit the monitor (keep aspect "
+"ratio).\n"
+"    <b>Cover</b>: Scale the wallpaper to cover the monitor (keep aspect "
+"ratio).\n"
+"    <b>Scale-down</b>: Scale down the wallpaper to fit the monitor if "
+"needed, otherwise keep its original size.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Fyll</b>: Sträck bakgrunden för att fylla bildskärmen\n"
+"    <b>Innehåll</b>: Skala bakgrunden för att passa bildskärmen (Behåll "
+"bildförhållande).\n"
+"    <b>Täck</b>: Skala bakgrunden för att täcka bildskärmen (Behåll "
+"bildförhållande).\n"
+"    <b>Skala-Ner</b>: Skala ner bakgrunden för att passa bildskärmen ifall "
+"det behövs, behåll annars dess ursprungliga storlek\n"
+"    "
+
+#: src/prefs.ts:248
+msgid "Fill"
+msgstr "Fyll"
+
+#: src/prefs.ts:249
+msgid "Contain"
+msgstr "Innehålla"
+
+#: src/prefs.ts:250
+msgid "Cover"
+msgstr "Täck"
+
+#: src/prefs.ts:251
+msgid "Scale-down"
+msgstr "Skala ner"
+
+#: src/prefs.ts:274
+msgid "Pause on Maximize or Fullscreen"
+msgstr "Pausa vid Maximering eller Helskärm"
+
+#: src/prefs.ts:275
+msgid "Pause playback when there is maximized or fullscreen window"
+msgstr "Pausa uppspelning när det är en maximerad eller helskärmsruta"
+
+#: src/prefs.ts:276
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Any Monitor</b>: Pause playback when there is maximized or fullscreen "
+"window on any monitor.\n"
+"    <b>All Monitors</b>: Pause playback when there are maximized or "
+"fullscreen windows on all monitors.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Aldrig</b>: Disable this feature.\n"
+"    <b>Vilken bildskärm som helst</b>: Pausa uppspelning när det är en "
+"maximiserad eller helskärmsruta på vilken bildskärm som helst.\n"
+"    <b>Alla bildskärmar</b>: Pausa uppspelning när det är en maximiserad "
+"eller helskärmsruta på alla bildskärmar.\n"
+"    "
+
+#: src/prefs.ts:282 src/prefs.ts:309
+msgid "Never"
+msgstr "Aldrig"
+
+#: src/prefs.ts:282
+msgid "Any Monitor"
+msgstr "Vilken bildskärm som helst"
+
+#: src/prefs.ts:282
+msgid "All Monitors"
+msgstr "Alla bildskärmar"
+
+#: src/prefs.ts:301
+msgid "Pause on Battery"
+msgstr "Pausa på batteri"
+
+#: src/prefs.ts:302
+msgid "Pause playback when the device is on battery or the battery is low"
+msgstr ""
+"Pausa uppspelning när enheten är på batteri eller när batteriet är lågt"
+
+#: src/prefs.ts:303
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Low Battery</b>: Pause playback when the device is on low battery "
+"(below the threshold).\n"
+"    <b>Always</b>: Pause playback when the device is on battery.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Aldrig</b>: Avaktivera denna funktion.\n"
+"    <b>Låg batterinivå</b>: Pausa uppspelning när enheten har lågt på "
+"batteri (Under tröskeln).\n"
+"    <b>Alltid</b>: Pausa uppspelning när enheten går på batteri.\n"
+"    "
+
+#: src/prefs.ts:309
+msgid "Low Battery"
+msgstr "Låg batterinivå"
+
+#: src/prefs.ts:309
+msgid "Always"
+msgstr "Alltid"
+
+#: src/prefs.ts:331
+msgid "Change Wallpaper Mode"
+msgstr "Ändra bakgrundsläge"
+
+#: src/prefs.ts:332
+msgid "Control how to change wallpapers automatically"
+msgstr "Kontrollera hur man ändrar bakgrund automatiskt"
+
+#: src/prefs.ts:333
+msgid ""
+"\n"
+"    <b>Sequential:</b> Preserve the directory sequence (descending order).\n"
+"    <b>Inverse Sequential:</b> Retrieve wallpapers in the opposite sequence "
+"(ascending order).\n"
+"    <b>Random:</b> Randomly select wallpapers from the directory.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Sekventiell:</b> Behåll mappens sekvens(Fallande ordning).\n"
+"    <b>Invers Sekvens:</b> Hämta bakgrunder i motsatt sekvens (Stigande "
+"ordning).\n"
+"    <b>Slumpmässig:</b> Slumpmässigt välj bakgrunden från mappen.\n"
+"    "
+
+#: src/prefs.ts:339
+msgid "Sequential"
+msgstr "Sekventiell"
+
+#: src/prefs.ts:339
+msgid "Inverse Sequential"
+msgstr "Invers sekvens"
+
+#: src/prefs.ts:339
+msgid "Random"
+msgstr "Slumpmässigt"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "This feature requires Gtk 4.8 or above"
+#~ msgstr "Denna funktion kräver Gtk 4.8 eller över"
+
+#~ msgid "Force gtk4paintablesink"
+#~ msgstr "Tvinga gtk4paintablesink"

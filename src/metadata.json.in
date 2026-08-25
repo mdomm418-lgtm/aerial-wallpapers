@@ -1,0 +1,13 @@
+{
+  "description": "Stream Apple, Jetson Creative, and community aerial videos as a live GNOME wallpaper — no local middleman required.",
+  "gettext-domain": "@uuid@",
+  "name": "Aerial Wallpapers",
+  "settings-schema": "@settings_schema@",
+  "session-modes": ["user", "unlock-dialog"],
+  "shell-version": [
+    "50"
+  ],
+  "url": "https://github.com/mdomm418-lgtm/aerial-wallpapers",
+  "uuid": "@uuid@",
+  "version": @version@
+}

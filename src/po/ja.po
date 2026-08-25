@@ -1,0 +1,380 @@
+# Gnome Shell Extension - Hanabi
+# Copyright (C) 2023 Jeff Shee (jeffshee8969@gmail.com)
+# This file is distributed under the same license as the gnome-ext-hanabi package.
+# Jeff Shee <jeffshee8969@gmail.com>, 2023.
+# sora kashiwazaki <kashiwasora0512@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-25 01:03+0900\n"
+"PO-Revision-Date: 2025-12-27 20:00+0000\n"
+"Last-Translator: sora kashiwazaki <kashiwasora0512@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/gnome-ext-"
+"hanabi/gnome-ext-hanabi/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.15.1\n"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Pause"
+msgstr "一時停止"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Play"
+msgstr "再生"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102
+msgid "Unmute Audio"
+msgstr "音声のミュートを解除"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102 src/prefs.ts:42
+msgid "Mute Audio"
+msgstr "音声をミュート"
+
+#: src/panelMenu.ts:109
+msgid "Next Wallpaper"
+msgstr "次の壁紙"
+
+#: src/panelMenu.ts:126
+msgid "Preferences"
+msgstr "設定"
+
+#: src/prefs.ts:38
+msgid "General"
+msgstr "一般"
+
+#: src/prefs.ts:43
+msgid "Volume Level"
+msgstr "音量"
+
+#: src/prefs.ts:44
+msgid "Random Start Position"
+msgstr ""
+
+#: src/prefs.ts:45
+msgid "Start playback from a random position each time a video starts"
+msgstr ""
+
+#: src/prefs.ts:46
+msgid "Show Panel Menu"
+msgstr "パネルメニューを表示"
+
+#: src/prefs.ts:47
+msgid "Show on Lock Screen"
+msgstr ""
+
+#: src/prefs.ts:48
+msgid "Show the live wallpaper on the lock screen"
+msgstr ""
+
+#: src/prefs.ts:50
+#, fuzzy
+#| msgid "Pause"
+msgid "Auto Pause"
+msgstr "一時停止"
+
+#: src/prefs.ts:53
+msgid "Pause on Window Focus"
+msgstr ""
+
+#: src/prefs.ts:54
+#, fuzzy
+#| msgid "Pause playback when an MPRIS media player is playing media"
+msgid "Pause playback when any window is focused"
+msgstr "MPRISを使用しているとき再生を停止する"
+
+#: src/prefs.ts:56
+msgid "Low Battery Threshold"
+msgstr "バッテリー低下のしきい値"
+
+#: src/prefs.ts:57
+msgid "Set the threshold percentage for low battery level"
+msgstr "バッテリーが少ないときのしきい値を設定する"
+
+#: src/prefs.ts:58
+msgid "Pause on Media Player Playing"
+msgstr "メディアプレイヤーの再生を一時停止"
+
+#: src/prefs.ts:59
+msgid "Pause playback when an MPRIS media player is playing media"
+msgstr "MPRISを使用しているとき再生を停止する"
+
+#: src/prefs.ts:61
+msgid "Wallpaper Changer"
+msgstr ""
+
+#: src/prefs.ts:63
+msgid "Change Wallpaper Automatically"
+msgstr "壁紙を自動で変更する"
+
+#: src/prefs.ts:66
+msgid "Change Wallpaper Interval (minutes)"
+msgstr "壁紙を一定間隔で変更する(分)"
+
+#: src/prefs.ts:69
+msgid "Overview"
+msgstr ""
+
+#: src/prefs.ts:71
+msgid "Corner Radius"
+msgstr ""
+
+#: src/prefs.ts:72
+msgid ""
+"Rounded corner radius in pixels for workspace background in the overview"
+msgstr ""
+
+#: src/prefs.ts:74
+msgid "Experimental"
+msgstr "実験的機能"
+
+#: src/prefs.ts:76
+msgid "Experimental VA Plugin"
+msgstr "実験的VAプラグイン"
+
+#: src/prefs.ts:77
+msgid ""
+"Enable VA decoders which improve performance for Intel/AMD Wayland users"
+msgstr ""
+"パフォーマンスを向上させるためのVAデコーダを有効にします\n"
+"（Intel/AMD Waylandユーザー向け）"
+
+#: src/prefs.ts:78
+msgid "NVIDIA Stateless Decoders"
+msgstr "NVIDIAステートレスデコーダ"
+
+#: src/prefs.ts:79
+msgid "Use new stateless NVIDIA decoders"
+msgstr "新たに実装されたステートレスNVIDIAデコーダを使用します"
+
+#: src/prefs.ts:81
+msgid "Developer"
+msgstr "開発者向けオプション"
+
+#: src/prefs.ts:83
+msgid "Debug Mode"
+msgstr "デバッグモード"
+
+#: src/prefs.ts:84
+msgid "Print debug messages to log"
+msgstr "デバッグメッセージをログに出力します"
+
+#: src/prefs.ts:85
+#, fuzzy
+#| msgid "Preferences"
+msgid "Prefer clappersink"
+msgstr "設定"
+
+#: src/prefs.ts:86
+#, fuzzy
+#| msgid "Force use of gtk4paintablesink for video playback"
+msgid "Prefer clappersink over gtk4paintablesink for video playback"
+msgstr "動画再生にgtk4paintablesinkを優先的に使用します"
+
+#: src/prefs.ts:87
+msgid "Force GtkMediaFile"
+msgstr "GtkMediaFileを優先"
+
+#: src/prefs.ts:88
+msgid "Force use of GtkMediaFile for video playback"
+msgstr "動画再生にGtkMediaFileを優先的に使用します"
+
+#: src/prefs.ts:89
+msgid "Enable Graphics Offload"
+msgstr ""
+
+#: src/prefs.ts:90
+msgid "Enable graphics offload for improved performance"
+msgstr ""
+
+#: src/prefs.ts:91
+msgid "Startup Delay"
+msgstr "起動遅延"
+
+#: src/prefs.ts:92
+msgid ""
+"Add a startup delay (in milliseconds) to mitigate compatibility issues with "
+"other extensions"
+msgstr ""
+"他の拡張機能との相性問題を解消するために、起動を少し遅らせます（ミリ秒単位）"
+
+#: src/prefs.ts:94
+msgid "Border Stroke"
+msgstr ""
+
+#: src/prefs.ts:95
+msgid ""
+"Border width in pixels drawn inside the rounded-rect bounds (0 = disabled)"
+msgstr ""
+
+#: src/prefs.ts:160
+msgid "Video Path"
+msgstr "動画ファイルのパス"
+
+#: src/prefs.ts:166 src/prefs.ts:191 src/prefs.ts:207 src/prefs.ts:228
+msgid "None"
+msgstr "なし"
+
+#: src/prefs.ts:172 src/prefs.ts:213
+msgid "Open"
+msgstr "開く"
+
+#: src/prefs.ts:182
+msgid "Open File"
+msgstr "ファイルを開く"
+
+#: src/prefs.ts:201
+msgid "Change Wallpaper Directory Path"
+msgstr "変更する壁紙のディレクトリ"
+
+#: src/prefs.ts:220
+msgid "Select Directory"
+msgstr "ディレクトリを選択"
+
+#: src/prefs.ts:238
+msgid "Fit Mode"
+msgstr "フィットモード"
+
+#: src/prefs.ts:239
+msgid "Control how wallpaper fits within the monitor"
+msgstr "壁紙をモニターにフィットする方法を設定します"
+
+#: src/prefs.ts:240
+msgid ""
+"\n"
+"    <b>Fill</b>: Stretch the wallpaper to fill the monitor.\n"
+"    <b>Contain</b>: Scale the wallpaper to fit the monitor (keep aspect "
+"ratio).\n"
+"    <b>Cover</b>: Scale the wallpaper to cover the monitor (keep aspect "
+"ratio).\n"
+"    <b>Scale-down</b>: Scale down the wallpaper to fit the monitor if "
+"needed, otherwise keep its original size.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Fill</b>: 壁紙をモニター全体に広げます。\n"
+"    <b>Contain</b>: 壁紙をモニターに合わせてスケーリングします。\n"
+"\t（レターボックス、アスペクト比を保持）\n"
+"    <b>Cover</b>: 壁紙をモニターに合わせてスケールします。\n"
+"\t（切り取り、アスペクト比を保持）\n"
+"    <b>Scale-down</b>: モニターに合わせて壁紙をスケールダウンします。\n"
+"\t壁紙のサイズがモニターより小さい場合は元のサイズを維持します。\n"
+"    "
+
+#: src/prefs.ts:248
+msgid "Fill"
+msgstr "Fill"
+
+#: src/prefs.ts:249
+msgid "Contain"
+msgstr "Contain"
+
+#: src/prefs.ts:250
+msgid "Cover"
+msgstr "Cover"
+
+#: src/prefs.ts:251
+msgid "Scale-down"
+msgstr "Scale-down"
+
+#: src/prefs.ts:274
+msgid "Pause on Maximize or Fullscreen"
+msgstr "最大化またはフルスクリーン中に一時停止"
+
+#: src/prefs.ts:275
+msgid "Pause playback when there is maximized or fullscreen window"
+msgstr "最大化またはフルスクリーンのウィンドウがあるとき再生を停止する"
+
+#: src/prefs.ts:276
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Any Monitor</b>: Pause playback when there is maximized or fullscreen "
+"window on any monitor.\n"
+"    <b>All Monitors</b>: Pause playback when there are maximized or "
+"fullscreen windows on all monitors.\n"
+"    "
+msgstr ""
+
+#: src/prefs.ts:282 src/prefs.ts:309
+msgid "Never"
+msgstr ""
+
+#: src/prefs.ts:282
+msgid "Any Monitor"
+msgstr "いづれかのディスプレイ"
+
+#: src/prefs.ts:282
+msgid "All Monitors"
+msgstr "すべてのディスプレイ"
+
+#: src/prefs.ts:301
+msgid "Pause on Battery"
+msgstr ""
+
+#: src/prefs.ts:302
+msgid "Pause playback when the device is on battery or the battery is low"
+msgstr ""
+"デバイスがバッテリー駆動中またはバッテリーが低下しているときに再生を一時停止"
+"する"
+
+#: src/prefs.ts:303
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Low Battery</b>: Pause playback when the device is on low battery "
+"(below the threshold).\n"
+"    <b>Always</b>: Pause playback when the device is on battery.\n"
+"    "
+msgstr ""
+
+#: src/prefs.ts:309
+msgid "Low Battery"
+msgstr "低バッテリー"
+
+#: src/prefs.ts:309
+msgid "Always"
+msgstr "常に"
+
+#: src/prefs.ts:331
+msgid "Change Wallpaper Mode"
+msgstr "壁紙のモードを変更"
+
+#: src/prefs.ts:332
+msgid "Control how to change wallpapers automatically"
+msgstr "どのように壁紙を自動で変更するか設定する"
+
+#: src/prefs.ts:333
+msgid ""
+"\n"
+"    <b>Sequential:</b> Preserve the directory sequence (descending order).\n"
+"    <b>Inverse Sequential:</b> Retrieve wallpapers in the opposite sequence "
+"(ascending order).\n"
+"    <b>Random:</b> Randomly select wallpapers from the directory.\n"
+"    "
+msgstr ""
+
+#: src/prefs.ts:339
+msgid "Sequential"
+msgstr "順次再生"
+
+#: src/prefs.ts:339
+msgid "Inverse Sequential"
+msgstr "逆順再生"
+
+#: src/prefs.ts:339
+msgid "Random"
+msgstr "ランダム"
+
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "This feature requires Gtk 4.8 or above"
+#~ msgstr "この機能を使用するには、Gtk 4.8以上が必要です"
+
+#~ msgid "Force gtk4paintablesink"
+#~ msgstr "gtk4paintablesinkを優先"

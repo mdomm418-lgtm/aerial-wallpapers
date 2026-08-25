@@ -1,0 +1,392 @@
+# Gnome Shell Extension - Hanabi
+# Copyright (C) 2023 Jeff Shee (jeffshee8969@gmail.com)
+# This file is distributed under the same license as the gnome-ext-hanabi package.
+# Nikodem Frączek <niko123571@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-25 01:03+0900\n"
+"PO-Revision-Date: 2024-10-20 11:31+0000\n"
+"Last-Translator: Nikodem Frączek <niko123571@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/gnome-ext-hanabi/"
+"gnome-ext-hanabi/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Pause"
+msgstr "Zatrzymaj"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Play"
+msgstr "Odtwórz"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102
+msgid "Unmute Audio"
+msgstr "Włącz Dźwięk"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102 src/prefs.ts:42
+msgid "Mute Audio"
+msgstr "Wycisz Dźwięk"
+
+#: src/panelMenu.ts:109
+msgid "Next Wallpaper"
+msgstr "Następna Tapeta"
+
+#: src/panelMenu.ts:126
+msgid "Preferences"
+msgstr "Ustawienia"
+
+#: src/prefs.ts:38
+msgid "General"
+msgstr "Ogólne"
+
+#: src/prefs.ts:43
+msgid "Volume Level"
+msgstr "Głośność"
+
+#: src/prefs.ts:44
+msgid "Random Start Position"
+msgstr ""
+
+#: src/prefs.ts:45
+msgid "Start playback from a random position each time a video starts"
+msgstr ""
+
+#: src/prefs.ts:46
+msgid "Show Panel Menu"
+msgstr "Wyświetlaj Menu w Panelu"
+
+#: src/prefs.ts:47
+msgid "Show on Lock Screen"
+msgstr ""
+
+#: src/prefs.ts:48
+msgid "Show the live wallpaper on the lock screen"
+msgstr ""
+
+#: src/prefs.ts:50
+msgid "Auto Pause"
+msgstr "Automatyczne Zatrzymanie"
+
+#: src/prefs.ts:53
+msgid "Pause on Window Focus"
+msgstr ""
+
+#: src/prefs.ts:54
+#, fuzzy
+#| msgid "Pause playback when an MPRIS media player is playing media"
+msgid "Pause playback when any window is focused"
+msgstr "Zatrzymaj animacje, gdy odtwaracz multimedii MPRIS jest aktywny"
+
+#: src/prefs.ts:56
+msgid "Low Battery Threshold"
+msgstr "Próg Niskiego Poziomu Baterii"
+
+#: src/prefs.ts:57
+msgid "Set the threshold percentage for low battery level"
+msgstr "Wartość w procentach uznawana za niski poziom baterii"
+
+#: src/prefs.ts:58
+msgid "Pause on Media Player Playing"
+msgstr "Zatrzymaj przy Włączonym Odtwarzaczu"
+
+#: src/prefs.ts:59
+msgid "Pause playback when an MPRIS media player is playing media"
+msgstr "Zatrzymaj animacje, gdy odtwaracz multimedii MPRIS jest aktywny"
+
+#: src/prefs.ts:61
+msgid "Wallpaper Changer"
+msgstr "Rotacja Tapet"
+
+#: src/prefs.ts:63
+msgid "Change Wallpaper Automatically"
+msgstr "Zmieniaj Tapety Automatycznie"
+
+#: src/prefs.ts:66
+msgid "Change Wallpaper Interval (minutes)"
+msgstr "Częstotliwość Zmian Tapety (minuty)"
+
+#: src/prefs.ts:69
+msgid "Overview"
+msgstr ""
+
+#: src/prefs.ts:71
+msgid "Corner Radius"
+msgstr ""
+
+#: src/prefs.ts:72
+msgid ""
+"Rounded corner radius in pixels for workspace background in the overview"
+msgstr ""
+
+#: src/prefs.ts:74
+msgid "Experimental"
+msgstr "Eksperymentalne"
+
+#: src/prefs.ts:76
+msgid "Experimental VA Plugin"
+msgstr "Eksperymentalny Plugin VA"
+
+#: src/prefs.ts:77
+msgid ""
+"Enable VA decoders which improve performance for Intel/AMD Wayland users"
+msgstr "Włącz dekodery VA poprawiające wydajność dla sesji Intel/AMD Wayland"
+
+#: src/prefs.ts:78
+msgid "NVIDIA Stateless Decoders"
+msgstr "Dekodery NVIDIA Stateless"
+
+#: src/prefs.ts:79
+msgid "Use new stateless NVIDIA decoders"
+msgstr "Użyj nowych dekoderów bezstanowych NVIDIA"
+
+#: src/prefs.ts:81
+msgid "Developer"
+msgstr "Ustawienia Deweloperskie"
+
+#: src/prefs.ts:83
+msgid "Debug Mode"
+msgstr "Tryb Debugowania"
+
+#: src/prefs.ts:84
+msgid "Print debug messages to log"
+msgstr "Włącz zapisywanie wiadomości debug do dziennika"
+
+#: src/prefs.ts:85
+#, fuzzy
+#| msgid "Preferences"
+msgid "Prefer clappersink"
+msgstr "Ustawienia"
+
+#: src/prefs.ts:86
+#, fuzzy
+#| msgid "Force use of gtk4paintablesink for video playback"
+msgid "Prefer clappersink over gtk4paintablesink for video playback"
+msgstr "Wymuś użycie gtk4paintablesink do odtwarzania wideo"
+
+#: src/prefs.ts:87
+msgid "Force GtkMediaFile"
+msgstr "Wymuś Użycie GtkMediaFile"
+
+#: src/prefs.ts:88
+msgid "Force use of GtkMediaFile for video playback"
+msgstr "Wymuś użycie GtkMediaFile do odtwarzania wideo"
+
+#: src/prefs.ts:89
+msgid "Enable Graphics Offload"
+msgstr ""
+
+#: src/prefs.ts:90
+msgid "Enable graphics offload for improved performance"
+msgstr ""
+
+#: src/prefs.ts:91
+msgid "Startup Delay"
+msgstr "Opóźnienie Uruchomienia"
+
+#: src/prefs.ts:92
+msgid ""
+"Add a startup delay (in milliseconds) to mitigate compatibility issues with "
+"other extensions"
+msgstr ""
+"Dodaj opóźnienie uruchomienia (w milisekundach) w celu zachowania "
+"kompatybilności z innymi rozszerzeniami"
+
+#: src/prefs.ts:94
+msgid "Border Stroke"
+msgstr ""
+
+#: src/prefs.ts:95
+msgid ""
+"Border width in pixels drawn inside the rounded-rect bounds (0 = disabled)"
+msgstr ""
+
+#: src/prefs.ts:160
+msgid "Video Path"
+msgstr "Ścieżka do Tła"
+
+#: src/prefs.ts:166 src/prefs.ts:191 src/prefs.ts:207 src/prefs.ts:228
+msgid "None"
+msgstr "Brak"
+
+#: src/prefs.ts:172 src/prefs.ts:213
+msgid "Open"
+msgstr "Otwórz"
+
+#: src/prefs.ts:182
+msgid "Open File"
+msgstr "Otwórz Plik"
+
+#: src/prefs.ts:201
+msgid "Change Wallpaper Directory Path"
+msgstr "Ścieżka Folderu z Tapetami"
+
+#: src/prefs.ts:220
+msgid "Select Directory"
+msgstr "Wybierz Folder"
+
+#: src/prefs.ts:238
+msgid "Fit Mode"
+msgstr "Tryb Dopasowania"
+
+#: src/prefs.ts:239
+msgid "Control how wallpaper fits within the monitor"
+msgstr "Kontroluje sposób dopasowania tapety do monitora"
+
+#: src/prefs.ts:240
+msgid ""
+"\n"
+"    <b>Fill</b>: Stretch the wallpaper to fill the monitor.\n"
+"    <b>Contain</b>: Scale the wallpaper to fit the monitor (keep aspect "
+"ratio).\n"
+"    <b>Cover</b>: Scale the wallpaper to cover the monitor (keep aspect "
+"ratio).\n"
+"    <b>Scale-down</b>: Scale down the wallpaper to fit the monitor if "
+"needed, otherwise keep its original size.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Wypełnij</b>: Rozciągnij tapetę aby wypełnić ekran.\n"
+"    <b>Dopasuj</b>: Przeskaluj tapetę aby dopasować ją do ekranu (bez zmian "
+"proporcji).\n"
+"    <b>Rozciągnij</b>: Przeskaluj tapetę aby pokryć ekran (bez zmian "
+"proporcji).\n"
+"    <b>Zmniejsz w skali</b>: W razie potrzeby zmniejsza skalę tapety aby "
+"dopasować ją do ekranu\n"
+"    "
+
+#: src/prefs.ts:248
+msgid "Fill"
+msgstr "Wypełnij"
+
+#: src/prefs.ts:249
+msgid "Contain"
+msgstr "Dopasuj"
+
+#: src/prefs.ts:250
+msgid "Cover"
+msgstr "Rozciągnij"
+
+#: src/prefs.ts:251
+msgid "Scale-down"
+msgstr "Zmniejsz w skali"
+
+#: src/prefs.ts:274
+msgid "Pause on Maximize or Fullscreen"
+msgstr "Zatrzymaj przy Pełnym Ekranie"
+
+#: src/prefs.ts:275
+msgid "Pause playback when there is maximized or fullscreen window"
+msgstr "Zatrzymaj odtwarzanie, gdy okno pokrywa cały ekran"
+
+#: src/prefs.ts:276
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Any Monitor</b>: Pause playback when there is maximized or fullscreen "
+"window on any monitor.\n"
+"    <b>All Monitors</b>: Pause playback when there are maximized or "
+"fullscreen windows on all monitors.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Nigdy</b>: Wyłącz tę funkcję.\n"
+"    <b>Jeden z Ekranów</b>: Zatrzymaj odtwarzanie, gdy na jednym z ekranów "
+"otwarta jest aplikacja pełnoekranowa.\n"
+"    <b>Wszystkie Ekrany</b>: Zatrzymaj odtwarzanie, gdy na wszystkich "
+"ekranach otwarte są aplikacje pełnoekranowe.\n"
+"    "
+
+#: src/prefs.ts:282 src/prefs.ts:309
+msgid "Never"
+msgstr "Nigdy"
+
+#: src/prefs.ts:282
+msgid "Any Monitor"
+msgstr "Jeden z Ekranów"
+
+#: src/prefs.ts:282
+msgid "All Monitors"
+msgstr "Wszystkie Ekrany"
+
+#: src/prefs.ts:301
+msgid "Pause on Battery"
+msgstr "Zatrzymaj na Baterii"
+
+#: src/prefs.ts:302
+msgid "Pause playback when the device is on battery or the battery is low"
+msgstr "Zatrzymaj odtwarzanie w zależności od stanu baterii"
+
+#: src/prefs.ts:303
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Low Battery</b>: Pause playback when the device is on low battery "
+"(below the threshold).\n"
+"    <b>Always</b>: Pause playback when the device is on battery.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Nigdy</b>: Wyłącz tę funkcję.\n"
+"    <b>Słaba Bateria</b>: Zatrzymaj odtwarzanie, gdy poziom baterii jest "
+"niski.\n"
+"    <b>Zawsze</b>: Zatrzymaj odtwarzanie, gdy urządzenie jest zasilane z "
+"baterii.\n"
+"    "
+
+#: src/prefs.ts:309
+msgid "Low Battery"
+msgstr "Słaba Bateria"
+
+#: src/prefs.ts:309
+msgid "Always"
+msgstr "Zawsze"
+
+#: src/prefs.ts:331
+msgid "Change Wallpaper Mode"
+msgstr "Zmień Tryb Zmian Tapety"
+
+#: src/prefs.ts:332
+msgid "Control how to change wallpapers automatically"
+msgstr "Kontroluje w jaki sposób tapety powinny się zmieniać"
+
+#: src/prefs.ts:333
+msgid ""
+"\n"
+"    <b>Sequential:</b> Preserve the directory sequence (descending order).\n"
+"    <b>Inverse Sequential:</b> Retrieve wallpapers in the opposite sequence "
+"(ascending order).\n"
+"    <b>Random:</b> Randomly select wallpapers from the directory.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Sekwencyjnie:</b> Zachowaj kolejność folderu (malejąco).\n"
+"    <b>Sekwencyjnie (od tyłu):</b> Zachowaj odwrotną kolejność folderu "
+"(rosnąco).\n"
+"    <b>Losowo:</b> Losowo wybieraj tapety z folderu.\n"
+"    "
+
+#: src/prefs.ts:339
+msgid "Sequential"
+msgstr "Sekwencyjnie"
+
+#: src/prefs.ts:339
+msgid "Inverse Sequential"
+msgstr "Sekwencyjnie (od tyłu)"
+
+#: src/prefs.ts:339
+msgid "Random"
+msgstr "Losowo"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "This feature requires Gtk 4.8 or above"
+#~ msgstr "Ta funkcja wymaga wersji Gtk 4.8 lub wyżej"
+
+#~ msgid "Force gtk4paintablesink"
+#~ msgstr "Wymuś Użycie gtk4paintablesink"

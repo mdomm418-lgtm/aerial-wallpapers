@@ -1,0 +1,12 @@
+Aerial Wallpapers is a fork of Hanabi (https://github.com/jeffshee/gnome-ext-hanabi)
+by Jeff Shee and contributors, originally licensed under GPL-3.0-or-later.
+
+Upstream commit used as the fork base: 1135dc50c4692ffbbe324a8523a973b58646c608
+
+Copyright (C) 2023-2026 Jeff Shee <jeffshee8969@gmail.com> and contributors
+Copyright (C) 2026 Michael D. Murray and contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.

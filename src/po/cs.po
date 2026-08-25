@@ -1,0 +1,396 @@
+# Gnome Shell Extension - Hanabi
+# Copyright (C) 2023 Jeff Shee (jeffshee8969@gmail.com)
+# This file is distributed under the same license as the gnome-ext-hanabi package.
+# vyPal <kubik.palacky@gmail.com>, 2023.
+# David Čudek <dajosek2seznam.cz@gmail.com>, 2024, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-25 01:03+0900\n"
+"PO-Revision-Date: 2025-04-06 08:05+0000\n"
+"Last-Translator: David Čudek <dajosek2seznam.cz@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gnome-ext-hanabi/"
+"gnome-ext-hanabi/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: src/panelMenu.ts:73 src/panelMenu.ts:87
+msgid "Play"
+msgstr "Přehrát"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102
+msgid "Unmute Audio"
+msgstr "Zapnout zvuk"
+
+#: src/panelMenu.ts:94 src/panelMenu.ts:102 src/prefs.ts:42
+msgid "Mute Audio"
+msgstr "Vypnout zvuk"
+
+#: src/panelMenu.ts:109
+msgid "Next Wallpaper"
+msgstr "Další tapeta"
+
+#: src/panelMenu.ts:126
+msgid "Preferences"
+msgstr "Nastavení"
+
+#: src/prefs.ts:38
+msgid "General"
+msgstr "Obecné"
+
+#: src/prefs.ts:43
+msgid "Volume Level"
+msgstr "Hlasitost"
+
+#: src/prefs.ts:44
+msgid "Random Start Position"
+msgstr ""
+
+#: src/prefs.ts:45
+msgid "Start playback from a random position each time a video starts"
+msgstr ""
+
+#: src/prefs.ts:46
+msgid "Show Panel Menu"
+msgstr "Zobrazit menu na panelu"
+
+#: src/prefs.ts:47
+msgid "Show on Lock Screen"
+msgstr ""
+
+#: src/prefs.ts:48
+msgid "Show the live wallpaper on the lock screen"
+msgstr ""
+
+#: src/prefs.ts:50
+msgid "Auto Pause"
+msgstr "Automaticky pozastavit"
+
+#: src/prefs.ts:53
+msgid "Pause on Window Focus"
+msgstr ""
+
+#: src/prefs.ts:54
+#, fuzzy
+#| msgid "Pause playback when an MPRIS media player is playing media"
+msgid "Pause playback when any window is focused"
+msgstr "Zastavit přehrávání jestli jakýkoliv přehrávač MPRIS přehrává média."
+
+#: src/prefs.ts:56
+msgid "Low Battery Threshold"
+msgstr "Hranice nízké baterie"
+
+#: src/prefs.ts:57
+msgid "Set the threshold percentage for low battery level"
+msgstr "Nastavit procentuální hranici pro nízkou baterii"
+
+#: src/prefs.ts:58
+msgid "Pause on Media Player Playing"
+msgstr "Zastavit při přehrávání medií."
+
+#: src/prefs.ts:59
+msgid "Pause playback when an MPRIS media player is playing media"
+msgstr "Zastavit přehrávání jestli jakýkoliv přehrávač MPRIS přehrává média."
+
+#: src/prefs.ts:61
+msgid "Wallpaper Changer"
+msgstr "Měnič tapety"
+
+#: src/prefs.ts:63
+msgid "Change Wallpaper Automatically"
+msgstr "Změnit Tapetu Automaticky"
+
+#: src/prefs.ts:66
+msgid "Change Wallpaper Interval (minutes)"
+msgstr "Interval změny tapety (minuty)"
+
+#: src/prefs.ts:69
+msgid "Overview"
+msgstr ""
+
+#: src/prefs.ts:71
+msgid "Corner Radius"
+msgstr ""
+
+#: src/prefs.ts:72
+msgid ""
+"Rounded corner radius in pixels for workspace background in the overview"
+msgstr ""
+
+#: src/prefs.ts:74
+msgid "Experimental"
+msgstr "Experimentální"
+
+#: src/prefs.ts:76
+msgid "Experimental VA Plugin"
+msgstr "Experimentální VA Plugin"
+
+#: src/prefs.ts:77
+msgid ""
+"Enable VA decoders which improve performance for Intel/AMD Wayland users"
+msgstr "Povolit VA dekodéry které zlepší výkon pro Intel/AMD Wayland uživatele"
+
+#: src/prefs.ts:78
+msgid "NVIDIA Stateless Decoders"
+msgstr "NVIDIA Stateless Dekodéry"
+
+#: src/prefs.ts:79
+msgid "Use new stateless NVIDIA decoders"
+msgstr "Použít nové stateless NVIDIA dekodéry"
+
+#: src/prefs.ts:81
+msgid "Developer"
+msgstr "Pro vývojáře"
+
+#: src/prefs.ts:83
+msgid "Debug Mode"
+msgstr "Debug mód"
+
+#: src/prefs.ts:84
+msgid "Print debug messages to log"
+msgstr "Vypisovat ladící zprávy do protokolu"
+
+#: src/prefs.ts:85
+#, fuzzy
+#| msgid "Preferences"
+msgid "Prefer clappersink"
+msgstr "Nastavení"
+
+#: src/prefs.ts:86
+#, fuzzy
+#| msgid "Force use of gtk4paintablesink for video playback"
+msgid "Prefer clappersink over gtk4paintablesink for video playback"
+msgstr "Vynutí použití gtk4paintablesink pro přehrávání videa"
+
+#: src/prefs.ts:87
+msgid "Force GtkMediaFile"
+msgstr "Vynutit GtkMediaFile"
+
+#: src/prefs.ts:88
+msgid "Force use of GtkMediaFile for video playback"
+msgstr "Vynutí použití GtkMediaFile pro přehrávání videa"
+
+#: src/prefs.ts:89
+msgid "Enable Graphics Offload"
+msgstr ""
+
+#: src/prefs.ts:90
+msgid "Enable graphics offload for improved performance"
+msgstr ""
+
+#: src/prefs.ts:91
+msgid "Startup Delay"
+msgstr "Prodleva při startu"
+
+#: src/prefs.ts:92
+msgid ""
+"Add a startup delay (in milliseconds) to mitigate compatibility issues with "
+"other extensions"
+msgstr ""
+"Přidá časovou prodlevu (v milisekundách) před startem, aby se vyhnulo "
+"potížím s kompatibilitou s ostatními rozšířeními"
+
+#: src/prefs.ts:94
+msgid "Border Stroke"
+msgstr ""
+
+#: src/prefs.ts:95
+msgid ""
+"Border width in pixels drawn inside the rounded-rect bounds (0 = disabled)"
+msgstr ""
+
+#: src/prefs.ts:160
+msgid "Video Path"
+msgstr "Cesta k videu"
+
+#: src/prefs.ts:166 src/prefs.ts:191 src/prefs.ts:207 src/prefs.ts:228
+msgid "None"
+msgstr "Žádné video"
+
+#: src/prefs.ts:172 src/prefs.ts:213
+msgid "Open"
+msgstr "Otevřít"
+
+#: src/prefs.ts:182
+msgid "Open File"
+msgstr "Otevřít soubor"
+
+#: src/prefs.ts:201
+msgid "Change Wallpaper Directory Path"
+msgstr "Změnit cestu složky tapet"
+
+#: src/prefs.ts:220
+msgid "Select Directory"
+msgstr "Vybrat složku"
+
+#: src/prefs.ts:238
+msgid "Fit Mode"
+msgstr "Mód vyplnění"
+
+#: src/prefs.ts:239
+msgid "Control how wallpaper fits within the monitor"
+msgstr "Nastavit jak se pozadí vejde do obrazovky"
+
+#: src/prefs.ts:240
+msgid ""
+"\n"
+"    <b>Fill</b>: Stretch the wallpaper to fill the monitor.\n"
+"    <b>Contain</b>: Scale the wallpaper to fit the monitor (keep aspect "
+"ratio).\n"
+"    <b>Cover</b>: Scale the wallpaper to cover the monitor (keep aspect "
+"ratio).\n"
+"    <b>Scale-down</b>: Scale down the wallpaper to fit the monitor if "
+"needed, otherwise keep its original size.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Roztáhnout</b>: Roztáhne tapetu aby vyplnila celou obrazovku.\n"
+"    <b>Obsáhnout</b>: Škáluje tapetu aby se vešla na obrazovku (zachová "
+"poměr stran).\n"
+"    <b>Vyplnit</b>: Škáluje tapetu aby vyplnila obrazovku (zachová poměr "
+"stran).\n"
+"    <b>Škálovat dolů</b>: Zmenšit tapetu aby se vešla na obrazovku pokud je "
+"třeba, jinak ponechat v původní velikosti\n"
+"    "
+
+#: src/prefs.ts:248
+msgid "Fill"
+msgstr "Roztáhnout"
+
+#: src/prefs.ts:249
+msgid "Contain"
+msgstr "Obsáhnout"
+
+#: src/prefs.ts:250
+msgid "Cover"
+msgstr "Vyplnit"
+
+#: src/prefs.ts:251
+msgid "Scale-down"
+msgstr "Škálovat dolů"
+
+#: src/prefs.ts:274
+msgid "Pause on Maximize or Fullscreen"
+msgstr "Zastavit při maximalizovaném/fullscreen okně."
+
+#: src/prefs.ts:275
+msgid "Pause playback when there is maximized or fullscreen window"
+msgstr ""
+"Zastavit přehrávání jestli je okno maximalizováno nebo na plnou obrazovku."
+
+#: src/prefs.ts:276
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Any Monitor</b>: Pause playback when there is maximized or fullscreen "
+"window on any monitor.\n"
+"    <b>All Monitors</b>: Pause playback when there are maximized or "
+"fullscreen windows on all monitors.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Nikdy</b>: Nevypínejte tuto funkci.\n"
+"    <b>Jakákoliv obrazovka</b>: Zastavit přehrávání pokud na jakékoliv "
+"obrazovce je maximizované/fullscreen okno.\n"
+"    <b>Všechny obrazovky</b>: Zastavit přehrávání pokud na všech obrazovkách "
+"jsou maximalizované/fullscreen okna.\n"
+"    "
+
+#: src/prefs.ts:282 src/prefs.ts:309
+msgid "Never"
+msgstr "Nikdy"
+
+#: src/prefs.ts:282
+msgid "Any Monitor"
+msgstr "Jakákoliv obrazovka"
+
+#: src/prefs.ts:282
+msgid "All Monitors"
+msgstr "Všechny obrazovky."
+
+#: src/prefs.ts:301
+msgid "Pause on Battery"
+msgstr "Zastavit na baterii"
+
+#: src/prefs.ts:302
+msgid "Pause playback when the device is on battery or the battery is low"
+msgstr ""
+"Zastavit přehrávání jestli je zařízení na baterii nebo je baterie nízká"
+
+#: src/prefs.ts:303
+msgid ""
+"\n"
+"    <b>Never</b>: Disable this feature.\n"
+"    <b>Low Battery</b>: Pause playback when the device is on low battery "
+"(below the threshold).\n"
+"    <b>Always</b>: Pause playback when the device is on battery.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Nikdy</b>: Nezakazujte tuto funkci\n"
+"    <b>Nízká baterie</b>: Zastavit přehrávání pokud má zařízení nízko "
+"nabitou baterii (Pod hranicí).\n"
+"    <b>Vždy</b>: Zastavit přehrávání jestli je zařízení napájeno z baterie.\n"
+"    "
+
+#: src/prefs.ts:309
+msgid "Low Battery"
+msgstr "Nízká baterie"
+
+#: src/prefs.ts:309
+msgid "Always"
+msgstr "Vždy"
+
+#: src/prefs.ts:331
+msgid "Change Wallpaper Mode"
+msgstr "Změnit mód tapety."
+
+#: src/prefs.ts:332
+msgid "Control how to change wallpapers automatically"
+msgstr "Ovládat jak se tapety mění automaticky"
+
+#: src/prefs.ts:333
+msgid ""
+"\n"
+"    <b>Sequential:</b> Preserve the directory sequence (descending order).\n"
+"    <b>Inverse Sequential:</b> Retrieve wallpapers in the opposite sequence "
+"(ascending order).\n"
+"    <b>Random:</b> Randomly select wallpapers from the directory.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>Sekvenční:</b> Zanechat sekvenci složek (padající seřazení)\n"
+"    <b>Opačně sekvenční:</b> Vybírat tapety v opačné sekvenci (stoupající "
+"seřazení)\n"
+"    <b>Náhodně:</b> Náhodně vybrat tapety ze složky\n"
+"    "
+
+#: src/prefs.ts:339
+msgid "Sequential"
+msgstr "Sekvenční"
+
+#: src/prefs.ts:339
+msgid "Inverse Sequential"
+msgstr "Obráceně sekvenční"
+
+#: src/prefs.ts:339
+msgid "Random"
+msgstr "Random"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušit"
+
+#~ msgid "This feature requires Gtk 4.8 or above"
+#~ msgstr "Tato funkce požaduje Gtk 4.8 nebo novější"
+
+#~ msgid "Force gtk4paintablesink"
+#~ msgstr "Vynutit gtk4paintablesink"

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build output
+# esbuild writes the bundled extension/prefs/renderer here
+src/_build/
+# meson build directories (.build, .build-ci, .build-pack, ...)
+.build*/
+# staging prefix and packaged zip produced by `make pack`
+staging/
+dist/
+*.shell-extension.zip
+
+# Generated at build time from metadata.json.in
+src/metadata.json
+
+# Compiled translations (built from src/po/*.po)
+*.mo
+
+# Tool caches
+.eslintcache
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local scratch space
+scratch/

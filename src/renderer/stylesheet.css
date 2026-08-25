@@ -1,0 +1,8 @@
+window {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Opaque veil for failure / desktop-fallback transitions only. */
+.media-fade-veil {
+    background-color: #000000;
+}

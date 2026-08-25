@@ -15,6 +15,10 @@ and gets out of the way.
 
 ![The International Space Station aerial playing as the GNOME desktop wallpaper](docs/images/desktop.jpg)
 
+Shuffling locations, with one clip crossfading into the next:
+
+https://github.com/user-attachments/assets/687e8eb4-1722-4b60-ae7d-faa5b2bc70f0
+
 Forked from [Hanabi](https://github.com/jeffshee/gnome-ext-hanabi) by Jeff Shee and
 contributors; see [NOTICE](NOTICE) for full attribution.
 
@@ -106,6 +110,10 @@ make uninstall   # or: gnome-extensions uninstall aerial-wallpapers@michael-d-mu
 ```
 
 ## Using it
+
+Picking a clip from the shortcut, then working through the settings:
+
+https://github.com/user-attachments/assets/121cc41f-093e-4edd-87a8-8033fe108773
 
 Open the panel menu from the aerial icon in the top bar for the current clip's
 preview and name, plus *Pause Aerials*, *Mute Audio*, *Next Clip*,
